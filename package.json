@@ -1,0 +1,9 @@
+{
+  "name": "Movies",
+  "version": "1.0.0",
+  "description": "test app",
+  "main": "index.js",
+  "repository": "https://github.com/NikShein/Movies.git",
+  "author": "NikShein <nikshein93@gmail.com>",
+  "license": "MIT"
+}
