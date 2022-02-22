@@ -5,5 +5,13 @@
   "main": "index.js",
   "repository": "https://github.com/NikShein/Movies.git",
   "author": "NikShein <nikshein93@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "people": "psql -f sql/create_people_table.sql",
+    "professions": "psql -f sql/create_professions_table.sql",
+    "people_professions": "psql -f sql/create_people_professions_table.sql"
+  },
+  "dependencies": {}
 }
